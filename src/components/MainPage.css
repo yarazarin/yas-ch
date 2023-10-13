@@ -1,0 +1,35 @@
+/* MainPage.css */
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+  background-image: url("../img/bg-stars.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.owner-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  background-image: url("../img/Yas.png");
+  background-size: cover;
+}
+
+.main_component {
+  margin: 20px;
+}
+
+.address-link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+}
